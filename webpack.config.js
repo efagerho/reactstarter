@@ -25,5 +25,8 @@ module.exports = {
         use: ['babel-loader', 'eslint-loader']
       }
     ]
+  },
+  resolve: {
+    extensions: ['.js', '.jsx']
   }
 };
