@@ -1,0 +1,49 @@
+{
+  "name": "reactstarter",
+  "version": "1.0.0",
+  "description": "Simple Starter for React",
+  "main": "",
+  "repository": "https://github.com/efagerho/reactstarter",
+  "scripts": {
+    "build": "webpack -p",
+    "build:dev": "webpack -d",
+    "dev": "webpack-dev-server",
+    "lint": "eslint **/*.{js,jsx} --quiet",
+    "watch": "webpack --watch",
+    "test": "jest",
+    "test:coverage": "jest --coverage",
+    "test:update": "jest -u"
+  },
+  "author": "Edvard Fagerholm",
+  "license": "MIT",
+  "jest": {
+    "setupTestFrameworkScriptFile": "js/setupTests.js",
+    "testEnvironment": "jsdom"
+  },
+  "dependencies": {
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0"
+  },
+  "devDependencies": {
+    "ajv": "^6.1.1",
+    "babel-core": "^6.26.0",
+    "babel-eslint": "^8.2.1",
+    "babel-jest": "^22.2.2",
+    "babel-loader": "^7.1.2",
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-react": "^6.24.1",
+    "enzyme": "^3.3.0",
+    "enzyme-adapter-react-16": "^1.1.1",
+    "eslint": "^4.18.0",
+    "eslint-config-airbnb": "^16.1.0",
+    "eslint-loader": "^1.9.0",
+    "eslint-plugin-import": "^2.8.0",
+    "eslint-plugin-jsx-a11y": "^6.0.3",
+    "eslint-plugin-react": "^7.6.1",
+    "jest": "^22.3.0",
+    "prop-types": "^15.6.0",
+    "regenerator-runtime": "^0.11.1",
+    "webpack": "^3.11.0",
+    "webpack-dev-server": "^2.11.1"
+  }
+}
