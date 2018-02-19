@@ -22,6 +22,7 @@
     "testEnvironment": "jsdom"
   },
   "dependencies": {
+    "prop-types": "^15.6.0",
     "react": "^16.2.0",
     "react-dom": "^16.2.0",
     "react-router-dom": "^4.2.2"
@@ -45,7 +46,6 @@
     "eslint-plugin-react": "^7.6.1",
     "jest": "^22.3.0",
     "prettier": "^1.10.2",
-    "prop-types": "^15.6.0",
     "regenerator-runtime": "^0.11.1",
     "webpack": "^3.11.0",
     "webpack-dev-server": "^2.11.1"
